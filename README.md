@@ -13,10 +13,7 @@ Tools:
 3. Open vSwitch (OVS): Virtual switch to simulate MPLS behavior.
 
 Textual Representation of the network Used: 
-
-   dc1 ---- dc2 ---- dc3
-    |       |       |
-   h1      h2      h3
+![image](https://github.com/user-attachments/assets/27665bd0-3f34-4210-9adb-a30a33557a88)
 
 MPLS labels, the Ryu Controller dynamically adjusts the paths based on network conditions (e.g., link failure, congestion).
 Key Features:
