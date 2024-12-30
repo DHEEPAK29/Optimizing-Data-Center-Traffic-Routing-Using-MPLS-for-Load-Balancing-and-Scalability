@@ -1,0 +1,9 @@
+#  Step 3: MPLS Configuration on Mininet Switches
+
+# OpenFlow rule for MPLS forwarding
+ovs-ofctl add-flow dc1 "in_port=1,actions=push_mpls:0x8847,output:2"
+ovs-ofctl add-flow dc2 "in_port=1,actions=pop_mpls:0x8847,output:2"
+
+- `push_mpls`: Push an MPLS label to the packet.
+- `pop_mpls`: Pop an MPLS label from the packet.
+Ryu SDN controller to set up the flow for dynamic label assignment and traffic management.
