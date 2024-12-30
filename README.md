@@ -12,7 +12,13 @@ Tools:
 2. Ryu Controller: SDN controller (Py) that can be used to manage OpenFlow-enabled devices and simulate MPLS behavior.
 3. Open vSwitch (OVS): Virtual switch to simulate MPLS behavior.
 
-MPLS labels, the Ryu Controller can dynamically adjust the paths based on network conditions (e.g., link failure, congestion).
+Textual Representation of the network Used: 
+
+   dc1 ---- dc2 ---- dc3
+    |       |       |
+   h1      h2      h3
+
+MPLS labels, the Ryu Controller dynamically adjusts the paths based on network conditions (e.g., link failure, congestion).
 Key Features:
 - MPLS in Data Center: This setup uses MPLS labels to forward packets between data center switches, which improves scalability and reduces latency.
 - Dynamic Load Balancing: Traffic can be distributed efficiently across different paths using MPLS and SDN controllers.
