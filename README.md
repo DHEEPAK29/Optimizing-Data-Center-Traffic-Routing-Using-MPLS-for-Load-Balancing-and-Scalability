@@ -7,10 +7,15 @@ Provisioning Data Center network with MPLS for efficient routing and load balanc
 Py Mininet: Simulating the network and Ryu Controller (OpenFlow) for traffic management.
 
 Step 1: Set Up Mininet Topology
+
 Step 2: Define a Custom Mininet Topology with MPLS
+
 Step 3: MPLS Configuration on Mininet Switches
+
 Step 4: Integrating the Ryu Controller for MPLS
+
 Step 5: Running 
+
 Step 6: Load Balancing and Traffic Simulation
 
 Textual Representation of the network Used: 
